@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-23T14:17:52.151+01:00
+  lastUpdatedAtString: 2020-11-23T14:19:17.711+01:00
   initializedAtString: 2020-11-23T14:17:52.140+01:00
-  localBranches: []
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches: []
   remotes:
   - name: origin
@@ -26,8 +28,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/CortvriendBerni/ArCloset-MR.git
+      trackingBranch: master
   remoteConfigBranches:
     keys: []
     subKeys: []
