@@ -21,7 +21,6 @@
 		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
@@ -37,7 +36,6 @@
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
@@ -46,9 +44,15 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="OnPressButtonTshirt" preserve="nothing"/>
+		<type fullname="HideClothesAvatar" preserve="nothing"/>
 		<type fullname="OpenDoorLeft" preserve="nothing"/>
 		<type fullname="OpenDoorRight" preserve="nothing"/>
+		<type fullname="PantsScript" preserve="nothing"/>
+		<type fullname="RotateScripts" preserve="nothing"/>
+		<type fullname="ShoesScript" preserve="nothing"/>
+		<type fullname="ShowTshirtButtons" preserve="nothing"/>
+		<type fullname="SweaterScript" preserve="nothing"/>
+		<type fullname="TshirtScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_ColorGradient" preserve="nothing"/>

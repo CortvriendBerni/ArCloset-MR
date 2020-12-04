@@ -128,18 +128,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Application
 
-	//Start Registrations for type : UnityEngine.AudioSettings
-
-		//System.Boolean UnityEngine.AudioSettings::StartAudioOutput()
-		void Register_UnityEngine_AudioSettings_StartAudioOutput();
-		Register_UnityEngine_AudioSettings_StartAudioOutput();
-
-		//System.Boolean UnityEngine.AudioSettings::StopAudioOutput()
-		void Register_UnityEngine_AudioSettings_StopAudioOutput();
-		Register_UnityEngine_AudioSettings_StopAudioOutput();
-
-	//End Registrations for type : UnityEngine.AudioSettings
-
 	//Start Registrations for type : UnityEngine.Behaviour
 
 		//System.Boolean UnityEngine.Behaviour::get_enabled()
@@ -757,6 +745,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
 		void Register_UnityEngine_GameObject_Internal_AddComponentWithType();
 		Register_UnityEngine_GameObject_Internal_AddComponentWithType();
+
+		//UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+		void Register_UnityEngine_GameObject_Find();
+		Register_UnityEngine_GameObject_Find();
 
 		//UnityEngine.Transform UnityEngine.GameObject::get_transform()
 		void Register_UnityEngine_GameObject_get_transform();

@@ -64,9 +64,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\HideClothesAvatar.cs" />
     <Compile Include="Assets\Scripts\OnPressButtonTshirt.cs" />
     <Compile Include="Assets\Scripts\OpenDoorLeft.cs" />
     <Compile Include="Assets\Scripts\OpenDoorRight.cs" />
+    <Compile Include="Assets\Scripts\PantsScript.cs" />
+    <Compile Include="Assets\Scripts\RotateScripts.cs" />
+    <Compile Include="Assets\Scripts\ShoesScript.cs" />
+    <Compile Include="Assets\Scripts\ShowTshirtButtons.cs" />
+    <Compile Include="Assets\Scripts\SweaterScript.cs" />
+    <Compile Include="Assets\Scripts\TshirtScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
