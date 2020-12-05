@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.EnvironmentCache
+    - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
@@ -32,11 +33,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
-    Unity.XR.ARSubsystems.dll:
-    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -115,8 +113,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12756}
     - Class: 114
-      Script: {instanceID: 12958}
-    - Class: 114
       Script: {instanceID: 13046}
     - Class: 114
       Script: {instanceID: 13062}
@@ -144,8 +140,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13824}
     - Class: 114
       Script: {instanceID: 13866}
-    - Class: 114
-      Script: {instanceID: 13870}
     - Class: 114
       Script: {instanceID: 13948}
     - Class: 115
@@ -1071,4 +1065,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: /Users/bernicortvriend/Documents/School Eerste Semester 2020-2021/Mixed
-    Reality/ArCloset-MR/ArCloset/3rd build
+    Reality/ArCloset-MR/final-build
